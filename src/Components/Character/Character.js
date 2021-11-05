@@ -53,7 +53,7 @@ function Character({match}){
                     <h2>{char.name}</h2>
                     <div>
                         {
-                            char.gender=="Male" &&
+                            char.gender==="Male" &&
                             <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="14" cy="14" r="14" fill="#7DB7ED"/>
                                 <path d="M14.0818 7.84003V9.48013H18.2648L15.1598 12.3634C14.1631 11.6768 12.9292 11.2705 11.5929 11.2705C8.28309 11.2705 5.60001 13.7619 5.60001 16.8353C5.60001 19.9086 8.28309 22.4 11.5928 22.4C14.9026 22.4 17.5857 19.9086 17.5857 16.8353C17.5857 15.5944 17.1481 14.4486 16.4087 13.5231L19.5137 10.6399V14.5241H21.28V7.84003L14.0818 7.84003ZM11.5928 20.5673C9.37313 20.5673 7.5737 18.8964 7.5737 16.8352C7.5737 14.7741 9.37313 13.1032 11.5928 13.1032C13.8125 13.1032 15.612 14.7741 15.612 16.8352C15.612 18.8964 13.8125 20.5673 11.5928 20.5673V20.5673Z" fill="#3D3636"/>
@@ -61,7 +61,7 @@ function Character({match}){
 
                         }
                         {
-                            char.gender=="Female" &&
+                            char.gender==="Female" &&
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12.5" cy="12.5" r="12.5" fill="#F0A493"/>
                                 <g clip-path="url(#clip0)">
@@ -77,7 +77,7 @@ function Character({match}){
 
                         }
                         {
-                            char.gender=="unknown" &&
+                            char.gender==="unknown" &&
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="15" cy="15" r="15" fill="#418B35"/>
                                 <g clipPath="url(#clip0)">

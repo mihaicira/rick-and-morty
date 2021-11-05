@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import {AppContainer} from './Components/AppContainer.style'
+import {AppContainer} from './Components/AppContainer.style';
 
 import Header from "./Components/Header/Header";
 import Search from "./Components/Search/Search";
@@ -23,11 +23,10 @@ function App() {
     <Router>
       <AppContainer>
         <Header/>
-
         <Switch>
-          <Route path="rick-and-morty/" exact component={Search}/>
-          <Route path="rick-and-morty/character/:id" component={Character}/>
-          <Route path="rick-and-morty/" component={PageNotFound}/>
+          <Route path="/rick-and-morty/" exact component={Search}/>
+          <Route path="/rick-and-morty/character/:id" component={Character}/>
+          <Route path="/rick-and-morty/" component={PageNotFound}/>
         </Switch>
 
 
