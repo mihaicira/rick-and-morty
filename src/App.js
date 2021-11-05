@@ -25,9 +25,9 @@ function App() {
         <Header/>
 
         <Switch>
-          <Route path="/" exact component={Search}/>
-          <Route path="/character/:id" component={Character}/>
-          <Route path="/" component={PageNotFound}/>
+          <Route path="rick-and-morty/" exact component={Search}/>
+          <Route path="rick-and-morty/character/:id" component={Character}/>
+          <Route path="rick-and-morty/" component={PageNotFound}/>
         </Switch>
 
 
