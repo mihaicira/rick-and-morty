@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/mihaicira.github.io/rickandmorty/static/js/main.c43d9bea.chunk.js",
+    "main.js.map": "/mihaicira.github.io/rickandmorty/static/js/main.c43d9bea.chunk.js.map",
+    "runtime-main.js": "/mihaicira.github.io/rickandmorty/static/js/runtime-main.0a3c74f7.js",
+    "runtime-main.js.map": "/mihaicira.github.io/rickandmorty/static/js/runtime-main.0a3c74f7.js.map",
+    "static/js/2.b18fa4de.chunk.js": "/mihaicira.github.io/rickandmorty/static/js/2.b18fa4de.chunk.js",
+    "static/js/2.b18fa4de.chunk.js.map": "/mihaicira.github.io/rickandmorty/static/js/2.b18fa4de.chunk.js.map",
+    "static/js/3.70187c48.chunk.js": "/mihaicira.github.io/rickandmorty/static/js/3.70187c48.chunk.js",
+    "static/js/3.70187c48.chunk.js.map": "/mihaicira.github.io/rickandmorty/static/js/3.70187c48.chunk.js.map",
+    "index.html": "/mihaicira.github.io/rickandmorty/index.html",
+    "static/js/2.b18fa4de.chunk.js.LICENSE.txt": "/mihaicira.github.io/rickandmorty/static/js/2.b18fa4de.chunk.js.LICENSE.txt",
+    "static/media/404.60e4a7e8.png": "/mihaicira.github.io/rickandmorty/static/media/404.60e4a7e8.png",
+    "static/media/characters.29d0061b.png": "/mihaicira.github.io/rickandmorty/static/media/characters.29d0061b.png",
+    "static/media/rmlogo.1a418873.png": "/mihaicira.github.io/rickandmorty/static/media/rmlogo.1a418873.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a3c74f7.js",
+    "static/js/2.b18fa4de.chunk.js",
+    "static/js/main.c43d9bea.chunk.js"
+  ]
+}
